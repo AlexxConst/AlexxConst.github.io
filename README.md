@@ -28,7 +28,7 @@
 - :telescope: I'm studying web programming and application site development.
 
 - :seedling: Learning to write web content.
-- 
+
 - :briefcase: <a href="https://alexxconst.github.io/">My Portfolio</a>
 
 - :zap: In my free time, I solve problems on CodeWars and read technical articles and books.

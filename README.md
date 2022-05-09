@@ -31,5 +31,5 @@
 
 - :zap: In my free time, I solve problems on CodeWars and read technical articles and books.
 
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/alexxconst)
+- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-Alex-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/alexxconst)
 

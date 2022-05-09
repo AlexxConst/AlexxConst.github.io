@@ -23,5 +23,13 @@
 
 ---
 
-:man_technologist: About Me : I am a Web Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Israel.
+### :man_technologist: About Me : I am a Web Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Israel.
+
+- :telescope: I'm studying web programming and application site development.
+
+- :seedling: Learning to write web content.
+
+- :zap: In my free time, I solve problems on CodeWars and read technical articles and books.
+
+- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/alexxconst)
 

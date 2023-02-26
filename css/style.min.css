@@ -378,11 +378,12 @@ template {
     color: #000;
 }
 .title__fz20 {
-    font-size: 20px;
+    font-size: 40px;
+    font-weight: bold;
     line-height: 24px;
 }
 .title__fz47 {
-    font-size: 45px;
+    font-size: 55px;
 }
 .title__fz36 {
     font-size: 36px;
@@ -716,8 +717,9 @@ template {
 .about__skills-text {
     color: #000;
     margin-top: 6px;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: normal;
 }
 .resume {
     padding-top: 120px;
@@ -1063,8 +1065,8 @@ template {
     }
     .about__skills {
         -moz-column-gap: 20px;
-        column-gap: 20px;
-        grid-template: repeat(2, minmax(115px, auto)) / repeat(2, 250px);
+        column-gap: 50px;
+        grid-template: repeat(2, minmax(115px, auto)) / repeat(2, 350px);
     }
     .about__skills-item {
         grid-template-columns: 40px 195px;

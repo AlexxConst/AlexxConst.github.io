@@ -120,12 +120,12 @@ sup {
     top: -0.5em;
 }
 a {
-    color: #007bff;
+    color: #00ADB5;
     text-decoration: none;
     background-color: transparent;
 }
 a:hover {
-    color: #0056b3;
+    color: #00ADB5;
     text-decoration: underline;
 }
 a:not([href]):not([tabindex]) {
@@ -303,7 +303,7 @@ template {
 .divider {
     width: 60px;
     height: 3px;
-    background-color: #0097f0;
+    background-color: #30E3CA;
     margin: 25px auto 0 auto;
 }
 
@@ -391,6 +391,7 @@ template {
 .title__section-title {
     position: relative;
     text-align: center;
+    padding: 7px 11px 21px 15px;
 }
 .title__section-title::before {
     content: '';
@@ -398,10 +399,10 @@ template {
     z-index: -1;
     top: -25%;
     left: 4px;
-    width: 36px;
-    height: 36px;
-    border-radius: 100%;
-    background: #0097f0;
+    width: 250px;
+    height: 47px;
+    border-radius: 25px;
+    background: #3282B8;
 }
 .title__section-title:before {
     top: -5px;
@@ -413,7 +414,7 @@ template {
 }
 .btn {
     height: 45px;
-    background: #0097f0;
+    background: #00ADB5;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     padding: 12px 25px;
     border-radius: 15px;
@@ -674,7 +675,7 @@ template {
     width: 36px;
     height: 36px;
     border-radius: 100%;
-    background: #0097f0;
+    background: #3F72AF;
 }
 .about__text {
     margin-top: 20px;
@@ -709,7 +710,7 @@ template {
     width: 36px;
     height: 36px;
     border-radius: 100%;
-    background: #0097f0;
+    background: #3F72AF;
 }
 .about__skills-circle:before {
     top: 0;
@@ -827,7 +828,7 @@ template {
     width: 36px;
     height: 36px;
     border-radius: 100%;
-    background: #0097f0;
+    background: #3F72AF;
 }
 .resume__item-icon img {
     position: absolute;
@@ -897,7 +898,7 @@ template {
     width: 36px;
     height: 36px;
     border-radius: 100%;
-    background: #0097f0;
+    background: #3F72AF;
 }
 .skills__ratings-counter {
     font-size: 14px;
@@ -913,7 +914,7 @@ template {
 .skills__ratings-line span {
     display: block;
     height: 100%;
-    background-color: #0097f0;
+    background-color: #424874;
     border-radius: 4px;
 }
 .portfolio {

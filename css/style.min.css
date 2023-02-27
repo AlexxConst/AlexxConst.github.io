@@ -1255,7 +1255,6 @@ template {
     }
     .contacts {
         padding-top: 70px;
-        background-image: ;
     }
     .contacts__photo {
         display: none;
@@ -1340,11 +1339,50 @@ template {
     }
 }
 @media (max-width: 576px) {
+    .promo__btns {
+        padding-top: 200px;
+        margin: 0 auto;
+        gap: 23px;
+        flex-direction: column;
+    }
+
+    .about__skills-text {
+        line-height: 23px;
+        font-size: 14px;
+        /* text-align: center; */
+        /* margin-left: 50px; */
+    }
+
+    .about__skills-item {
+        grid-template-columns: 39px 326px;
+    }
+
+    .title__fz14 {
+        font-size: 18px;
+    }
+
+    .skills__text {
+        text-align: center;
+    }
+
+    .skills__item img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .skills__ratings-line span {
+        width: 60%;
+    }
+
     .about__text {
         padding: 0 10px;
     }
+    .title__fz20 {
+        font-size: 23px;
+    }
     .promo__title {
-        font-size: 30px;
+        font-size: 25px;
+        margin-top: 50px;
     }
     .portfolio__wrapper {
         display: flex;

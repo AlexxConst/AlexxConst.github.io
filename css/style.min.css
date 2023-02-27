@@ -1185,7 +1185,8 @@ template {
         padding: 30px 30px 27px 11px;
     }
     .skills__column {
-        grid-template: repeat(2, minmax(270px, auto)) / repeat(3, 185px);
+        grid-template: repeat(2, minmax(270px, auto)) / repeat(2, 180px);
+        justify-content: center;
     }
     .skills__ratings {
         grid-template-columns: repeat(auto-fit, 444px);
@@ -1341,7 +1342,6 @@ template {
 @media (max-width: 320px) {
     .promo__btns {
         margin: 0 auto;
-
     }
     .title__fz14 {
         font-size: 16px;
@@ -1402,7 +1402,7 @@ template {
         width: 100%;
     }
     .skills__column {
-        grid-template: repeat(2, minmax(270px, auto)) / repeat(1, 296px);
+        grid-template: repeat(2, minmax(270px, auto)) / repeat(2, 180px);
         justify-content: center;
     }
     .menu__link {

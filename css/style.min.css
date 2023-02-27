@@ -1338,12 +1338,21 @@ template {
         line-height: 18px;
     }
 }
-@media (max-width: 575px) {
+@media (max-width: 320px) {
     .promo__btns {
-        padding-top: 200px;
         margin: 0 auto;
-        gap: 23px;
-        flex-direction: column;
+
+    }
+    .title__fz14 {
+        font-size: 16px;
+    }
+
+    .portfolio__item {
+        gap: 25px;
+    }
+
+    .about__photo {
+        width: 97%;
     }
 
     .about__skills-text {
@@ -1354,11 +1363,11 @@ template {
     }
 
     .about__skills-item {
-        grid-template-columns: 39px 326px;
+        grid-template-columns: 39px 250px;
     }
 
     .title__fz14 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .skills__text {
@@ -1387,7 +1396,7 @@ template {
     .portfolio__wrapper {
         display: flex;
         flex-direction: column;
-        gap: 3px;
+        gap: 10px;
     }
     .portfolio__wrapper img {
         width: 100%;

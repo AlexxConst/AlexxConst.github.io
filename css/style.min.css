@@ -1338,7 +1338,7 @@ template {
         line-height: 18px;
     }
 }
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     .promo__btns {
         padding-top: 200px;
         margin: 0 auto;

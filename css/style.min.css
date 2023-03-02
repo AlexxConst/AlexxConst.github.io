@@ -516,6 +516,7 @@ template {
     width: 2px;
     height: 70px;
     background-color: #000;
+    border-radius: 5px;
 }
 .sidepanel__text {
     height: 150px;
@@ -558,8 +559,8 @@ template {
     height: 100vh;
     z-index: 10;
     visibility: hidden;
-    opacity: 1;
-    transition: all 0.3s;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
 }
 .menu.active {
     left: 0;
@@ -569,13 +570,14 @@ template {
 .menu__block {
     position: relative;
     width: 345px;
-    background-color: #0097f0;
+    background-color: #645caa;
     height: 100%;
     padding-top: 140px;
     padding-left: 40px;
     transition: all 0.6s;
     z-index: 10;
 }
+
 .menu__close {
     position: absolute;
     top: 25px;
@@ -584,6 +586,12 @@ template {
     height: 29px;
     cursor: pointer;
 }
+
+.menu__close:hover svg path {
+    fill: white;
+    transition: all 0.5s ease;
+}
+
 .menu__list {
     list-style-type: none;
     padding-left: 25px;
@@ -606,11 +614,13 @@ template {
     border: 1px solid #000;
     transition: all 0.5s;
 }
+
 .menu__link a {
-    color: #000;
+    color: #060047;
 }
 .menu__link a:hover {
     color: #fff;
+    transition: all 0.25s ease-in-out;
 }
 .menu__social {
     position: absolute;
@@ -622,9 +632,13 @@ template {
     justify-content: space-between;
     align-items: center;
 }
-.menu:hover svg path {
-    fill: #fff;
+.menu__social:hover svg path {
+    fill: white;
+    transition: all 0.5s ease-in-out;
 }
+/* .menu:hover svg path {
+    fill: #f9f54b;
+} */
 .menu__overlay {
     position: fixed;
     top: 0;
@@ -850,7 +864,11 @@ template {
     align-items: center;
     border: 1px solid #000;
     padding: 30px 30px 25px 30px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
+
 .skills__item-icon {
     display: flex;
     align-items: center;
@@ -937,9 +955,13 @@ template {
 }
 .portfolio__item {
     transition: all 0.6s;
+    box-shadow: -9px 10px 5px 0px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: -9px 10px 5px 0px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: -9px 10px 5px 0px rgba(0, 0, 0, 0.55);
 }
 .portfolio__item:hover {
     filter: grayscale(100%);
+    transform: scale(1.04);
 }
 .contacts {
     padding: 120px 0 90px 0;

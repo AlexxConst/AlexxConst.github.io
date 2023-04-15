@@ -651,3 +651,110 @@ a {
         opacity: 1;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    /* Adjust header layout */
+    .header__left-block {
+        display: block;
+        text-align: center;
+    }
+    .header__logo {
+        margin: auto;
+    }
+    .header__links {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .header__right-block {
+        display: none;
+    }
+
+    .sidepanel {
+        display: none;
+    }
+
+    .tabcontent__descr {
+        width: 350px;
+        font-size: 16px;
+        right: 18px;
+        font-weight: bold;
+    }
+
+    .fade {
+        width: 100%;
+    }
+
+    .tabcontent img {
+        width: 100%;
+    }
+
+    /* Adjust sidepanel layout */
+    .sidepanel {
+        position: fixed;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 10px;
+    }
+
+    /* Adjust preview layout */
+    .preview {
+        height: auto;
+        padding: 10px;
+    }
+    .tabheader {
+        text-align: center;
+    }
+    .tabheader__items {
+        /* margin-bottom: 20px; */
+        display: flex;
+        flex-direction: column;
+    }
+    .tabheader__item {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .preview__life {
+        width: 217px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .tabcontainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+    .header__logo img {
+        width: 100px;
+        text-align: center;
+        align-items: center;
+    }
+    .header__links {
+        width: 370px;
+        flex-direction: column;
+    }
+    .header__link {
+        font-size: 15px;
+    }
+    .header__left-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tabcontent__descr {
+        display: none;
+    }
+    .fade {
+        width: 100%;
+    }
+
+}

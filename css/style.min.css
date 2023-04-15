@@ -864,9 +864,7 @@ template {
     align-items: center;
     border: 1px solid #000;
     padding: 30px 30px 25px 30px;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
 }
 
 .skills__item-icon {
@@ -944,6 +942,8 @@ template {
     grid-template: repeat(1, 280px) / repeat(4, 291px);
     grid-auto-rows: 280px;
     gap: 5px;
+    animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
 }
 .portfolio__wrapper .vertical {
     grid-row: 1/3;
@@ -954,14 +954,17 @@ template {
     grid-column: 2/4;
 }
 .portfolio__item {
-    transition: all 0.6s;
-    box-shadow: -9px 10px 5px 0px rgba(0, 0, 0, 0.55);
-    -webkit-box-shadow: -9px 10px 5px 0px rgba(0, 0, 0, 0.55);
-    -moz-box-shadow: -9px 10px 5px 0px rgba(0, 0, 0, 0.55);
+    transition: all 0.6s; /* don't forget to set a duration! */
 }
+
+.portfolio__item img {
+    border-radius: 10px;
+}
+
 .portfolio__item:hover {
+    transition: ease-out 0.9s;
     filter: grayscale(100%);
-    transform: scale(1.04);
+    /* transform: scale(1.1); */
 }
 .contacts {
     padding: 120px 0 90px 0;
@@ -1120,6 +1123,7 @@ template {
         justify-content: space-around;
         row-gap: 35px;
     }
+
     .portfolio__wrapper .horizontal {
         grid-row: none;
         grid-column: none;
